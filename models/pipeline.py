@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from models.sr_module import SatelliteSRNet
-from models.color_module import ColorizationGenerator
+from sr_module import SatelliteSRNet
+from color_module import ColorizationGenerator
 
 class ISROImageTransformationPipeline(nn.Module):
     """
