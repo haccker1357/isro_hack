@@ -21,7 +21,7 @@ pipeline = load_master_pipeline()
 
 # --- Sidebar UI ---
 st.sidebar.header("📥 Data Upload Panel")
-uploaded_file = st.sidebar.file_uploader("Upload single-channel IR Image", type=["png", "jpg", "jpeg"])
+uploaded_file = st.sidebar.file_uploader("Upload single-channel IR Image", type=["png", "jpg", "jpeg", "tif", "tiff"])
 
 # --- Main Render Window ---
 if uploaded_file is not None:
