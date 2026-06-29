@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 import numpy as np
 from PIL import Image
-from models.pipeline import ISROImageTransformationPipeline
+from pipeline import ISROImageTransformationPipeline
 
 # --- Page Setup ---
 st.set_page_config(page_title="ISRO IR-Colorization Framework", layout="wide")
